@@ -2,9 +2,6 @@
 
 name: sync-code
 on:
-  workflow_dispatchname: sync-codeon:
-  name: sync-code
-on:
   workflow_dispatch:
   schedule:
     - cron: '*/15 0-16,22-23 * * *'
